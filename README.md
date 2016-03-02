@@ -14,6 +14,6 @@ You need to do bind mount on volume usr/local/etc/haproxy/haproxy.cfg
 
 # Docker run
 
-$ docker run -d --name my-haproxy -p 80:80 -p 443:443 -v /path/to/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro cti-ufc-qx/docker-haproxy-ssl-self-signed:1.6
+$ docker run -itd --name my-haproxy -p 80:80 -p 443:443 -v /path/to/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro ctiufcqx/haproxy-ssl-self-signed:1.6
 
 
