@@ -4,7 +4,7 @@ The Original Docker Image [here] (https://hub.docker.com/r/library/haproxy/)
 
 This image add the support SSL via package 'openssl' and 'ssl-cert'. Besides, create a combined PEM SSL Certificate/Key File.
 
-More informations: Tutorial external [https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04]
+More informations: [Tutorial external] (https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04)
 
 # How to use this image
 
